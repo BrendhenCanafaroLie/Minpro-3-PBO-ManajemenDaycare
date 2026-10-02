@@ -1,8 +1,6 @@
 # Minpro-3-PBO-ManajemenDaycare
 
---- 
 ## Brendhen Canafaro Lie 2509116033 (Kelas A)
----
 
 ## 1. Deskripsi Singkat Program
 
@@ -14,47 +12,22 @@ Program ini mengelola tiga entitas utama:
 2. **Anak** — data anak yang dititipkan di daycare (`idAnak`, `namaAnak`, `umur`, `catatanKesehatan`), yang juga direlasikan ke `idOrangTua` sebagai wali penanggung jawabnya.
 3. **CatatanHarian** — jurnal harian yang diisi pengasuh untuk memantau kegiatan anak selama berada di daycare (`idCatatan`, `idAnak`, `tanggal`, `aktivitas`).
 
-Seluruh data disimpan sementara di memori menggunakan `ArrayList` selama program berjalan (tanpa database eksternal), sehingga cocok digunakan sebagai simulasi pencatatan sederhana.
+Program ini adalah pengembangan dari Mini Project 2, dengan tambahan abstract class, abstract method, polymorphism, dan Interface.
 
 ## 2. Struktur Program
 
-```
-src/
-├── Main.java                      # Class entry point (menu utama)
-├── model/
-│   ├── OrangTua.java               # Entitas data orang tua/wali
-│   ├── Anak.java                   # Entitas data anak
-│   └── CatatanHarian.java          # Entitas jurnal harian
-├── service/
-│   ├── OrangTuaService.java        # Logic CRUD untuk OrangTua
-│   ├── AnakService.java            # Logic CRUD untuk Anak
-│   └── CatatanHarianService.java   # Logic CRUD untuk CatatanHarian
-└── util/
-    └── InputValidator.java         # Helper validasi input pengguna
-```
+<p align="center">
+    <img width="319" height="399" alt="image" src="https://github.com/user-attachments/assets/5123c08f-e9d2-4381-985d-d0c92b581e01" />
+</p>
+
+---
 
 Program dibagi menjadi 3 lapisan (di luar class entry point `Main`):
 - **Model** — menyimpan struktur data (entitas).
 - **Service** — menyimpan seluruh logika/fungsi CRUD serta ArrayList penampung data.
 - **Util** — menyimpan fungsi bantu untuk validasi input.
 
-## 3. Cara Menjalankan Program
-
-Program dapat dikompilasi dan dijalankan menggunakan JDK (Java Development Kit) dari terminal:
-
-```bash
-# Masuk ke folder proyek
-cd src
-
-# Compile seluruh file .java
-javac -d ../bin Main.java model/*.java service/*.java util/*.java
-
-# Jalankan program
-cd ../bin
-java Main
-```
-
-## 4. Penjelasan Alur Program
+## 3. Penjelasan Alur Program
 
 1. Saat dijalankan, program menampilkan pesan selamat datang lalu masuk ke **Menu Utama** yang berisi 4 pilihan:
    1. Menu Data Orang Tua
@@ -74,7 +47,7 @@ java Main
 7. Fungsi **Read** menampilkan data menggunakan perulangan `for`, baik untuk menampilkan seluruh daftar (anak/orang tua) maupun untuk menampilkan riwayat aktivitas harian milik seorang anak tertentu.
 8. Program hanya berhenti ketika pengguna memilih menu **Keluar (4)** pada Menu Utama.
 
-## 5. Penjelasan Penerapan Ketentuan Umum
+## 4. Penjelasan Penerapan Ketentuan Umum
 
 | Ketentuan | Lokasi Penerapan |
 |---|---|
@@ -87,7 +60,7 @@ java Main
 | Perulangan agar program tidak berhenti | `while (berjalan)` pada `Main.java` (menu utama) dan `while (!kembali)` pada tiap submenu |
 | Perulangan menampilkan data | `for` loop pada method `tampilkanSemuaOrangTua()`, `tampilkanSemuaAnak()`, dan `tampilkanRiwayatAnak()` |
 
-## 6. Penjelasan Penerapan Nilai Tambah
+## 5. Penjelasan Penerapan Nilai Tambah
 
 ### a. Access Modifier
 Seluruh atribut pada class model (`OrangTua`, `Anak`, `CatatanHarian`) dideklarasikan sebagai `private`, sedangkan method yang perlu diakses dari luar class dideklarasikan `public`. Pada `Main.java`, method-method submenu (`menuOrangTua`, `menuAnak`, `menuCatatanHarian`, `tampilkanMenuUtama`) dideklarasikan `private static` karena hanya digunakan secara internal di dalam class `Main`.
