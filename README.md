@@ -2,6 +2,7 @@
 
 ## Brendhen Canafaro Lie 2509116033 (Kelas A)
 
+---
 ## 1. Deskripsi Singkat Program
 
 Program ini adalah aplikasi **CRUD (Create, Read, Update, Delete)** berbasis konsol (command line) yang mensimulasikan sistem rekap digital tempat penitipan anak (daycare). Program ini dibuat menggunakan bahasa **Java** dengan menerapkan konsep **Pemrograman Berorientasi Objek (PBO)**.
@@ -14,6 +15,7 @@ Program ini mengelola tiga entitas utama:
 
 Program ini adalah pengembangan dari Mini Project 2, dengan tambahan abstract class, abstract method, polymorphism, dan Interface.
 
+---
 ## 2. Struktur Program
 
 <p align="center">
@@ -30,6 +32,7 @@ Program ini adalah pengembangan dari Mini Project 2, dengan tambahan abstract cl
 | `controller` | Menyimpan data di `ArrayList` dan memproses tambah, cari, ubah, hapus. Tidak mencetak apa pun ke layar. Berisi `OrangTuaController`, `AnakController`, `CatatanHarianController`, dan interface `ManajemenData`. |
 | `helper` | Berisi `InputValidator` untuk validasi semua input pengguna. |
 
+---
 ## 3. Penjelasan Alur Program
 
 1. Saat dijalankan, program menampilkan pesan selamat datang lalu masuk ke **Menu Utama** yang berisi 4 pilihan:
@@ -75,7 +78,7 @@ Program ini adalah pengembangan dari Mini Project 2, dengan tambahan abstract cl
 </p>
 
 
-
+---
 ## 4. Penjelasan Penerapan Encapsulation, Inheritance
 
 ### a. Encapsulation
@@ -114,6 +117,7 @@ Proyek ini mengimplementasikan konsep **Inheritance** (Pewarisan Sifat) dalam Pe
    - Mewarisi atribut `id` dan `nama` dari kelas `Orang`.
    - Memiliki atribut khusus: `catatanKesehatan`, `idOrangTua`.
 
+---
 ## 5. Penjelasan Penerapan Polymorphism, Abstract
 ### a. Polymorphism
 **Method Overriding**
@@ -191,6 +195,7 @@ Di dalamnya ada **abstract method** `getPeran()` yang tidak punya isi. `OrangTua
     <img width="375" height="102" alt="image" src="https://github.com/user-attachments/assets/880b88a2-09fc-457a-a178-c523d03679d8" />
 </p>
 
+---
 ## 6. Penjelasan Penerapan Interface
 Interface adalah nilai tambah pada project ini. Ada 3 interface, masing-masing berada di package sesuai fungsinya:
 
