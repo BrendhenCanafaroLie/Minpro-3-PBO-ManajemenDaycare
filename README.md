@@ -211,11 +211,13 @@ Di dalamnya ada **abstract method** `getPeran()` yang tidak punya isi. `OrangTua
 
 <img width="324" height="52" alt="image" src="https://github.com/user-attachments/assets/b3016d2e-5866-49a4-905c-e0433c59fdf8" />
 
+===
 
 **2. Method Abstract Anak**
 
 <img width="378" height="102" alt="image" src="https://github.com/user-attachments/assets/a4686761-3f8c-4911-ab9c-31e7a039a257" />
 
+===
 
 **3. Method Abstract OrangTua**
 
@@ -251,6 +253,7 @@ Penggunaannya di program:
 
 <img width="596" height="109" alt="image" src="https://github.com/user-attachments/assets/7aa10a5a-bc60-43da-aed7-da463e014c51" />
 
+===
 
 **2. MenuView**
 
@@ -263,6 +266,7 @@ Penggunaannya di program:
 
 <img width="417" height="83" alt="image" src="https://github.com/user-attachments/assets/49cc0715-62b6-4264-b6e9-f477c211720f" />
 
+===
 
 **3. ManajemenData**
 
