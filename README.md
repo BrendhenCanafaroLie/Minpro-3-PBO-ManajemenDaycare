@@ -205,19 +205,25 @@ Nama method sama, tetapi parameternya berbeda. Ada di `CatatanHarianController.j
 
 Di dalamnya ada **abstract method** `getPeran()` yang tidak punya isi. `OrangTua` dan `Anak` wajib meng-override-nya dengan isi masing-masing. `toString()` di `Orang` adalah method biasa yang memanggil `getPeran()`, sehingga hasilnya menyesuaikan subclass-nya.
 
-**1. Method Abstract Orang**
+<p align="center">
+    **1. Method Abstract Orang**
+</p>
 
 <p align="center">
     <img width="324" height="52" alt="image" src="https://github.com/user-attachments/assets/b3016d2e-5866-49a4-905c-e0433c59fdf8" />
 </p>
 
-**2. Method Abstract Anak**
+<p align="center">
+    **2. Method Abstract Anak**
+</p>
 
 <p align="center">
     <img width="378" height="102" alt="image" src="https://github.com/user-attachments/assets/a4686761-3f8c-4911-ab9c-31e7a039a257" />
 </p>
 
-**3. Method Abstract OrangTua**
+<p align="center">
+    **3. Method Abstract OrangTua**
+</p>
 
 <p align="center">
     <img width="375" height="102" alt="image" src="https://github.com/user-attachments/assets/880b88a2-09fc-457a-a178-c523d03679d8" />
@@ -241,37 +247,50 @@ Penggunaannya di program:
 - `isKosong()` dipanggil di `AnakView` dan `CatatanHarianView` untuk mengecek apakah data orang tua atau anak sudah ada sebelum menambah anak atau catatan baru.
 - `MenuView` dipakai di `Main` untuk memanggil menu ketiga View secara polimorfik.
 
-**1. Informasi**
+<p align="center">
+    **1. Informasi**
+</p>
 
 <p align="center">
     <img width="717" height="104" alt="image" src="https://github.com/user-attachments/assets/66e95cb5-5dd5-4ea1-9313-f16fcd8bcb69" />
 </p>
 
-Contoh Penggunaan:
+<p align="center">
+    Contoh Penggunaan:
+</p>
 
 <p align="center">
     <img width="596" height="109" alt="image" src="https://github.com/user-attachments/assets/7aa10a5a-bc60-43da-aed7-da463e014c51" />
 </p>
 
-**2. MenuView**
+<p align="center">
+    **2. MenuView**
+</p>
 
 <p align="center">
     <img width="373" height="65" alt="image" src="https://github.com/user-attachments/assets/c70bca84-ae78-43dd-a167-7df2185d2501" />
 </p>
 
-Contoh Penggunaan:
+<p align="center">
+    Contoh Penggunaan:
+</p>
+
 
 <p align="center">
     <img width="417" height="83" alt="image" src="https://github.com/user-attachments/assets/49cc0715-62b6-4264-b6e9-f477c211720f" />
 </p>
 
-**3. ManajemenData**
+<p align="center">
+    **3. ManajemenData**
+</p>
 
 <p align="center">
     <img width="298" height="108" alt="image" src="https://github.com/user-attachments/assets/aa274a48-4bb6-4b43-886f-a3cf7bc126e9" />
 </p>
 
-Contoh Penggunaan:
+<p align="center">
+    Contoh Penggunaan:
+</p>
 
 <p align="center">
     <img width="367" height="115" alt="image" src="https://github.com/user-attachments/assets/0a0d9dac-6256-404b-b76b-f239435942b8" />
