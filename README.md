@@ -206,7 +206,7 @@ Nama method sama, tetapi parameternya berbeda. Ada di `CatatanHarianController.j
 Di dalamnya ada **abstract method** `getPeran()` yang tidak punya isi. `OrangTua` dan `Anak` wajib meng-override-nya dengan isi masing-masing. `toString()` di `Orang` adalah method biasa yang memanggil `getPeran()`, sehingga hasilnya menyesuaikan subclass-nya.
 
 <p align="center">
-    **1. Method Abstract Orang**
+    <b>1. Method Abstract Orang</b>
 </p>
 
 <p align="center">
@@ -214,7 +214,7 @@ Di dalamnya ada **abstract method** `getPeran()` yang tidak punya isi. `OrangTua
 </p>
 
 <p align="center">
-    **2. Method Abstract Anak**
+    <b>2. Method Abstract Anak</b>
 </p>
 
 <p align="center">
@@ -222,7 +222,7 @@ Di dalamnya ada **abstract method** `getPeran()` yang tidak punya isi. `OrangTua
 </p>
 
 <p align="center">
-    **3. Method Abstract OrangTua**
+    <b>3. Method Abstract OrangTua</b>
 </p>
 
 <p align="center">
@@ -248,7 +248,7 @@ Penggunaannya di program:
 - `MenuView` dipakai di `Main` untuk memanggil menu ketiga View secara polimorfik.
 
 <p align="center">
-    **1. Informasi**
+    <b>1. Informasi</b>
 </p>
 
 <p align="center">
@@ -264,7 +264,7 @@ Penggunaannya di program:
 </p>
 
 <p align="center">
-    **2. MenuView**
+    <b>2. MenuView</b>
 </p>
 
 <p align="center">
@@ -281,7 +281,7 @@ Penggunaannya di program:
 </p>
 
 <p align="center">
-    **3. ManajemenData**
+    <b>3. ManajemenData</b>
 </p>
 
 <p align="center">
