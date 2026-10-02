@@ -1,4 +1,8 @@
-# Minpro - PBO - Sistem Manajemen Daycare (Penitipan Anak)
+# Minpro-3-PBO-ManajemenDaycare
+
+--- 
+## Brendhen Canafaro Lie 2509116033 (Kelas A)
+---
 
 ## 1. Deskripsi Singkat Program
 
